@@ -1,4 +1,4 @@
-//
+
 //  main.cpp
 
 
@@ -282,7 +282,7 @@ void select(Node* root, string tmp, int size){
 }
 
 int main() {
-    ifstream file("/Users/danial/Desktop/2 курс/Алгоритмы/alg_2/list.txt");
+    ifstream file("/Users/danial/Desktop/2 ГЄГіГ°Г±/ГЂГ«ГЈГ®Г°ГЁГІГ¬Г»/alg_2/list.txt");
     if (!file) {
         cout << "Wrong filename :(" << endl;
         exit(1);

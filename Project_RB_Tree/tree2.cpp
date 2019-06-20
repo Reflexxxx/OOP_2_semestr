@@ -135,7 +135,7 @@ void ShowTree(Node* root, int p = -1) {
         //cout << root->name << " = " << root->price <<endl;
         cout << root->price <<endl;
         
-        //        if (!root->left)
+        //       if (!root->left)
         //        {
         //            for (int i = 0; i < p; i++){
         //                cout << " - ";
@@ -153,7 +153,7 @@ Node* Find (string price, Node* root){
 }
 
 void main_func(Node* &root){
-    ifstream file("/Users/danial/Desktop/2 êóðñ/Àëãîðèòìû/alg_3/list.txt");
+    ifstream file("/Users/danial/Desktop/2 ÃªÃ³Ã°Ã±/Ã€Ã«Ã£Ã®Ã°Ã¨Ã²Ã¬Ã»/alg_3/list.txt");
     if (!file) {
         cout << "Wrong filename :(" << endl;
         exit(1);
